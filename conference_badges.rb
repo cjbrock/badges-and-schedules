@@ -20,11 +20,10 @@ end
 
 def printer(people)
     batch_badge_creator(people).each do | badge |
-        binding.pry
         puts badge
     end
 
     assign_rooms(people).each do | room |
-
+        puts room
     end
 end
